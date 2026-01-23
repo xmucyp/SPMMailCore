@@ -5,7 +5,7 @@ let package = Package(
     name: "MailCore2",
     platforms: [
         .iOS(.v15),
-        .macOS(.v10_13)
+        .macOS(.v11)
     ],
     products: [
         .library(
@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MailCore",
-            url: "https://github.com/xmucyp/SPMMailCore/releases/download/1.0.1/MailCore.xcframework.zip",
-            checksum: "61fe73c8bb6513d93a49f52edd92bfddcff1783c3b2a9d6c9aa5947d7e96bf12"
+            url: "https://github.com/xmucyp/SPMMailCore/releases/download/1.0.2/MailCore.xcframework.zip",
+            checksum: "867f0766c9460b00054b4f51894d9570ea1ec815658cfcd98b85475a6c20775c"
         )
     ]
 )
