@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "MailCore",
-            url: "https://github.com/xmucyp/SPMMailCore/releases/download/1.0.2/MailCore.xcframework.zip",
-            checksum: "867f0766c9460b00054b4f51894d9570ea1ec815658cfcd98b85475a6c20775c"
+            url: "https://github.com/xmucyp/SPMMailCore/releases/download/1.0.3/MailCore.xcframework.zip",
+            checksum: "26cc56fa411871f97b2633b8270b0669769c5546052d10c841bfa40c5e42c1e9"
         )
     ]
 )
